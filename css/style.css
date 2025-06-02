@@ -3,7 +3,7 @@
     --secondary-color:#FFFFFF;
     --primary-font: "Epilogue";
 }
-body {
+* {
     box-sizing: border-box;
     font-family: var(--primary-font);
 }
@@ -37,10 +37,19 @@ body {
     color: var(--primary-color);
 }
 
-.footer .container {
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 130px;
-
+}
+.container__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__logos {
+    display: flex;
+    align-items: center;
+    gap: 200px;
 }
